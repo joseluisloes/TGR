@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">p2 (English)</string>
+    <string name="btnAgregarCaracteristica">Add Category</string>
+    <string name="btnAgregar">Add</string>
+    <string name="et_carac_id">Write the new value of the category...</string>
+    <string name="btnActualizarElemento">Modified Element</string>
+    <string name="btnEliminarElemento">Delete Element</string>
+    <string name="et_elemento_id">Write the new value of the element...</string>
+    <string name="btnActualizar">Update Category</string>
+    <string name="btnEliminar">Delete Category</string>
+    <string name="editText2">New element...</string>
+    <string name="btnAnadirElemento">ADD Element</string>
+</resources>

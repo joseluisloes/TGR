@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/container_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+        <fragment
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:name="com.example.joseluis.p2.Fragment1"
+            android:id="@+id/fragment2"
+            tools:layout="@layout/fragment1" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/container_b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" ><![CDATA[>]]>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/et_carac_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="40dp"
+                    android:ems="10"
+                    android:layout_weight="0.27"
+                    android:hint="@string/et_carac_id" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:id="@+id/btnAgregar"
+                    android:text="@string/btnAgregar" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

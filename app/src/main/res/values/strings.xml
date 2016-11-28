@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">p2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="btnAgregarCaracteristica">Agregar Categoria</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="et_carac_id">Escriba aqui el nuevo valor de la categoría...</string>
+    <string name="btnActualizarElemento">Modificar Elemento</string>
+    <string name="btnEliminarElemento">Eliminar Elemento</string>
+    <string name="et_elemento_id">Escriba aqui el nuevo valor del elemento...</string>
+    <string name="editText2">Nuevo elemento...</string>
+    <string name="btnActualizar">Actualizar Categoria</string>
+    <string name="btnEliminar">Eliminar Categoria</string>
+    <string name="btnAnadirElemento">Agregar elemento</string>
+
+
+</resources>
